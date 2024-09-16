@@ -84,7 +84,7 @@ public class UserDetailActivity extends AppCompatActivity implements OnMapReadyC
 
             @Override
             public void onFailure(Call<PaisRes> call, Throwable t) {
-                // Handle error
+                // error
             }
         });
     }

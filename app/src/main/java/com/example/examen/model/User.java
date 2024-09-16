@@ -3,6 +3,22 @@ package com.example.examen.model;
 
 public class User {
     private String name;
+
+    public User(String name, String email, String country, String picture, String street, String city, String state, String postcode, double latitude, double longitude, String phone, String cell) {
+        this.name = name;
+        this.email = email;
+        this.country = country;
+        this.picture = picture;
+        this.street = street;
+        this.city = city;
+        this.state = state;
+        this.postcode = postcode;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.phone = phone;
+        this.cell = cell;
+    }
+
     private String email;
     private String country;
     private String picture;
